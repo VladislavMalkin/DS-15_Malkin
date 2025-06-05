@@ -1,0 +1,10 @@
+CUsersuserAppDataLocalTempipykernel_48721159377448.py23 FutureWarning Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  y_train.fillna(method=ffill, inplace=True)
+CUsersuserAppDataLocalTempipykernel_48721159377448.py24 FutureWarning Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  y_test.fillna(method=ffill, inplace=True)
+training rf
+training xgb
+Random Forest MSE 2855.2646309660736
+Random Forest Performance {'max_drawdown' -0.052127627418645274, 'mean_return' 0.00023405022092724308, 'std_return' 0.0031866296563022706, 'n_trades' 5895}
+XGBoost MSE 2962.3409341954803
+XGBoost Performance {'max_drawdown' -0.06570992648804176, 'mean_return' 4.697354091272631e-05, 'std_return' 0.0018012327029846699, 'n_trades' 5895}
